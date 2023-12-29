@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <title>University Website-786</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="/Images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>OUR COURSES</h1>
+    </section>
+
+    <!-- ----------- Course --------------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+          molestias?
+        </p>
+        <div class="row">
+          <div class="course-col">
+            <h3>Intermediat</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta
+              error voluptatibus ad illum. Rerum iste omnis repellendus
+              reiciendis. Iusto vitae illum.
+            </p>
+          </div>
+          <div class="course-col">
+            <h3>Degree</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta
+              error voluptatibus ad illum. Rerum iste omnis repellendus
+              reiciendis. Iusto vitae illum.
+            </p>
+          </div>
+          <div class="course-col">
+            <h3>Post Graduate</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam soluta
+              error voluptatibus ad illum. Rerum iste omnis repellendus
+              reiciendis. Iusto vitae illum.
+            </p>
+          </div>
+        </div>
+      </section>
+  
+          <!-- ------------- Facilities -------------->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, iure.
+        </p>
+        <div class="row">
+          <div class="facilities-col">
+            <img src="/Images/library.png" />
+            <h3>World Class Library</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores ex
+              aspernatur incidunt natus enim.
+            </p>
+          </div>
+          <div class="facilities-col">
+            <img src="/Images/basketball.png" />
+            <h3>Largest Play Ground</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores ex
+              aspernatur incidunt natus enim.
+            </p>
+          </div>
+          <div class="facilities-col">
+            <img src="/Images/cafeteria.png" />
+            <h3>Tasty and Healthy Food</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores ex
+              aspernatur incidunt natus enim.
+            </p>
+          </div>
+        </div>
+      </section>
+  
+
+    
+    <!-- --------- Footer ----------->
+
+    <section class="footer">
+      <h4>ABOUT US</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+        explicabo inventore quidem deserunt. Consequuntur<br />
+        odit facere porro deserunt officiis voluptates? Sapiente, quasi!
+        Mollitia, cum.
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="far fa-heart"></i> by TZ</p>
+    </section>
+
+    <!--------- java script for toggle Menu -------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function hideMenu() {
+        navLinks.style.right = "-100%";
+      }
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+    </script>
+  </body>
+</html>
